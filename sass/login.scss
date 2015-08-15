@@ -1,0 +1,39 @@
+$nav-background: #5bc0de; 
+$nav-active: #89daf2;
+
+
+
+// ======= Navbar ========= 
+.navbar, .navbar-default, .navbar-collapse, .navbar-form, #logo {
+    background-color: $nav-background;
+    color: white;
+    background: gray;
+}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {		//
+	color: black;						//  navbar - link
+	font-weight: bold;	
+	opacity: 1;							//
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover  {
+	background-color: red; 		//
+	color: $nav-active;					//  navbar active color
+	font-weight: bold;	
+	opacity: 1;							//
+}
+
+.navbar-brand {
+	color: white;
+}
+
+#logo {
+	background: transparent;
+}
+// =========== End of navbar =================
